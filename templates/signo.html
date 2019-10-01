@@ -2,5 +2,9 @@
 
 <!-- MAIN -->
 {% block main %}
-
+    <figure>
+        {% set bicho_ruta = 'img/' + signo_usuario + '.svg' %}
+        <img src="{{ url_for('static', filename=bicho_ruta) }}" alt="">
+        <figcaption>{{ signo_usuario }}</figcaption>
+    </figure>
 {% endblock %}
