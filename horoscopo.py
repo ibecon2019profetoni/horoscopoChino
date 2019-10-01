@@ -1,0 +1,8 @@
+"""
+    HOROSCOPOS
+    ----------
+"""
+
+
+class HoroscopoChino():
+    pass
